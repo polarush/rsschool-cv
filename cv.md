@@ -8,12 +8,13 @@
 
 > Hello! My name is Eugeniy Polyarush, and I am a self-educated programmer. 
 > I work in web-design, system administration, system integration, SEO. 
-> I have created sites by Wordpress, Opencart, etc..., and work with programmers, 
+> I have created sites by Wordpress, Opencart etc..., and work with programmers, 
 > write technical specs for additional modules and new functional. 
+> I code small integrating or parsing scripts, and also I do it just for fun.
 > In the near future I want to become a front-end developer. 
 
 
-# Technologies i’m use:
+# Technologies i use:
 
 - JavaScript - Basic level
 - Python - Flask, Beautiful soup, Selenium, Requests, Instapy, MySQL(python library)
@@ -24,8 +25,6 @@
 - GIT basic
 - IDE's - PyCharm, VSCode, NPP
 - Graphical Software - Adobe Photoshop, Premiere Pro, After Effects, GIMP 
-
-I code small integrating or parsing scripts, and also I do it just for fun.
 
 # My code:
 ## _Javascript:_
