@@ -1,9 +1,9 @@
 # Eugeniy Polyarush
 
-**Phone number 1: +7(927)779-41-98**
-**Phone number 2: +7(927)723-35-44**
-**E-mail: polyarush.e@mail.ru**
-**GitHub: [https://github.com/polarush/](https://github.com/polarush/)**
+- **Phone number 1: +7(927)779-41-98**
+- **Phone number 2: +7(927)723-35-44**
+- **E-mail: polyarush.e@mail.ru**
+- **GitHub: [https://github.com/polarush/](https://github.com/polarush/)**
 
 > Hello! My name is Eugeniy Polyarush, and I am a self-educated programmer. 
 > I work in web-design, system administration, system integration, SEO. 
@@ -123,3 +123,24 @@ def make_readable(seconds):
     
     return "{:02}:{:02}:{:02}".format(hrs, mins_rem, secs)
 ```
+
+
+
+# Work experience:
+| Company | Years | Function |
+| ------ | ------ | ------ |
+| w3site.kz | aug 2010 – sep 2012  | Account manager  |
+| arbuz.kz | sep 2012 – mar 2014  | Junior System Administrator, Junior Web-Designer, Web-Admin  |
+| inprog.kz | mar 2014 – jan 2015  | Web-Administrator, Web Designer, Web-Master  |
+| contrast-polygraphy.kz | jan 2015 – sep 2017  | System Administrator  |
+| Freelance | sep 2017 – may 2021   | Web-Master  |
+| service-axus.ru | jun 2021 – today  | Web-Master  |
+
+# Education: 
+- High school (Almaty), 
+- MIPT online lectures,
+- Youtube lectures about SQL, Python, HTML/CSS, algorithms and data structures (2019-2021)
+- RS School 2021.
+
+
+# English: A2
