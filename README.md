@@ -1,1 +1,1 @@
-# rsschool-cv
+https://polarush.github.io/rsschool-cv/cv
