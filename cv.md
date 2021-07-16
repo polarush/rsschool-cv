@@ -1,6 +1,6 @@
 # Eugeniy Polyarush
 
-- **Samara, Russia8**
+- **Samara, Russia**
 - **Phone number 1: +7(927)779-41-98**
 - **Phone number 2: +7(927)723-35-44**
 - **E-mail: polyarush.e@mail.ru**
@@ -129,12 +129,12 @@ def make_readable(seconds):
 # Work experience (company, years, function):
 
 
-> w3site.kz - (aug 2010 – sep 2012) - Account manager
-> arbuz.kz - (sep 2012 – mar 2014) - Junior System Administrator, Junior Web-Designer, Web-Admin
-> inprog.kz - (mar 2014 – jan 2015) - Web-Administrator, Web Designer, Web-Master
-> contrast-polygraphy.kz - (jan 2015 – sep 2017) - System Administrator
-> Freelance - (sep 2017 – may 2021) - Web-Master
-> service-axus.ru - (jun 2021 – today) - Web-Master
+- w3site.kz - (aug 2010 – sep 2012) - Account manager
+- arbuz.kz - (sep 2012 – mar 2014) - Junior System Administrator, Junior Web-Designer, Web-Admin
+- inprog.kz - (mar 2014 – jan 2015) - Web-Administrator, Web Designer, Web-Master
+- contrast-polygraphy.kz - (jan 2015 – sep 2017) - System Administrator
+- Freelance - (sep 2017 – may 2021) - Web-Master
+- service-axus.ru - (jun 2021 – today) - Web-Master
 
 # Education: 
 - High school (Almaty), 
