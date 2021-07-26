@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Eugeniy Polyarush - CV</title>
+<meta name="description" content="Eugeniy Polyarush - CV">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <nav>
+    <a href="#contact">Contact</a>
+    <a href="#technologies">Technologies</a>
+    <a href="#code">Code</a>
+    <a href="#experience">Work experience</a>
+    <a href="#education">Education</a>
+  </nav>
+  <main>
+  <header class="row" id="contact"> <!-- header -->
+      <aside class="column-left"> <!-- фотка -->
+        <div class="img-profile">
+          <img class="photo" alt="Eugeniy Polyarush" width="200" src="media/photo.jpg">
+        </div>
+      </aside> <!-- фотка -->
+      <div class="column-right">
+        <h1>Eugeniy Polyarush</h1>
+        <ul class="contacts">
+          <li class="one">Samara, Russia</li>
+          <li class="two">+7(927)779-41-98</li>
+          <li class="three">+7(927)723-35-44</li>
+          <li class="four">polyarush.e@mail.ru</li>
+          <li class="five"><a href="https://github.com/polarush/">polarush</a></li>
+        </ul>
+      </div>  
+  </header>  <!-- end header -->
+  <div>
+    <p>Hello! My name is Eugeniy Polyarush, and I am a self-educated programmer. I work in web-design, system administration, system integration, SEO. I’ve created sites with Wordpress, Opencart etc…, wrote technical specs for further modules and new functionality. I really enjoy work as a front-end developer and am looking for opportunities to improve my career in that direction</p>
+  </div>
+  <section id="technologies"> <!-- technologies -->
+    <h2>Technologies:</h2>
+    <ul>
+      <li class="check">JavaScript - Basic level</li>
+      <li class="check">Python - Flask, Beautiful soup, Selenium, Requests, Instapy, MySQL(python library)</li>
+      <li class="check">SQL - MySQL, PostgreSQL</li>
+      <li class="check">HTML - Bootstrap 3,4</li>
+      <li class="check">CSS3</li>
+      <li class="check">Linux BASH - basic</li>
+      <li class="check">GIT - basic</li>
+      <li class="check">IDE’s - PyCharm, VSCode, NPP</li>
+      <li class="check">Graphical Software - Adobe Photoshop, Premiere Pro, After Effects, GIMP</li>
+    </ul>
+  </section> <!-- end technologies -->
+  <section class="code" id="code"> <!-- code -->
+    <h2>My Code: </h2>
+    <h3>JavaScript:</h3>
+    <h4><a href="https://www.codewars.com/kata/5667e8f4e3f572a8f2000039">Mumbling</a></h4> 
+    <h5>Solution:</h5>
+    <pre>
+function accum(s) {
+  let temp = ''
+  let n = 1;
+  temp += s[0] 
+  while (n !== s.length) {
+    temp += `-${s[n].toLowerCase().repeat(n+1)}`
+    n++
+  }
+
+  let arrTemp = temp.split('-')
+  let result = ''
+  arrTemp.forEach(function(item, i, arr) {
+  result += `-${item.replace(item[0],item[0].toUpperCase())}`
+  });
+
+  return result.slice(1)
+}
+        </pre>
+        <h4><a href="https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0">First and Last Character</a></h4>
+        <h5>Solution:</h5>
+        <pre>
+function removeChar(str){
+  return str.slice(1, str.length-1)
+};
+        </pre>
+        <h4><a href="https://www.codewars.com/kata/5168bb5dfe9a00b126000018">Reversed Strings</a></h4>
+        <h5>Solution:</h5>
+        <pre>
+function solution(str){
+  let string = '';
+  for (let n = str.length-1; n >= 0; n--) {
+    string += str[n]
+  }
+  return string
+}
+        </pre>
+        <h4><a href="https://www.codewars.com/kata/57a0885cbb9944e24c00008e">Remove exclamation marks</a></h4>
+        <h5>Solution:</h5>
+        <pre>
+function removeExclamationMarks(s) {
+  let re = /!/gi;
+  let newStr = s.replace(re, '');
+          
+  return newStr;
+}
+        </pre>
+        
+        <h3>Python:</h3>
+        <h4><a href="https://www.codewars.com/kata/5254ca2719453dcc0b00027d">Permutations</a></h4> 
+        <h5>Solution:</h5>
+        <pre>
+import itertools
+  def permutations(string):
+    return set(["".join(x) for x in itertools.permutations(string)])
+        </pre>
+
+        <h4><a href="https://www.codewars.com/kata/514a024011ea4fb54200004b">Extract the domain name from a URL</a></h4> 
+        <h5>Solution:</h5>
+        <pre>
+import re
+def domain_name(parsed_uri):
+    if re.findall('www.',parsed_uri,flags=0) == ['www.']:
+        return parsed_uri.split('//')[-1].split('/')[0].split('.')[1]
+    else:
+        return parsed_uri.split('//')[-1].split('/')[0].split('.')[0]
+        </pre>
+
+        <h4><a href="https://www.codewars.com/kata/52449b062fb80683ec000024">The Hashtag Generator</a></h4> 
+        <h5>Solution:</h5>
+        <pre>
+def generate_hashtag(s):
+  a = s.title().replace(' ','')
+  if len(a) > 140 or len(a) == 0:
+      return False
+  return '#'+a
+        </pre>
+        <h4><a href="https://www.codewars.com/kata/52685f7382004e774f0001f7">Human Readable Time</a></h4> 
+        <h5>Solution:</h5>
+        <pre>
+def make_readable(seconds):
+  secs = seconds % 60
+  mins = seconds // 60
+  mins_rem = mins % 60
+  hrs = mins // 60
+
+  return "{:02}:{:02}:{:02}".format(hrs, mins_rem, secs)
+        </pre>  
+    </section> <!-- end code -->
+
+    <section class="experience" id="experience"> <!-- work experience -->
+      <h2>Work experience:</h2>
+        <table class="career">
+          <tr>
+            <th>Company</th>
+            <td>Years</td>
+            <td>function</td> 
+           </tr>
+          <tr>
+           <th>w3site.kz</th>
+           <td>aug 2010 – sep 2012</td>
+           <td>Account manager</td> 
+          </tr>
+          <tr>
+           <th>arbuz.kz</th>
+           <td>sep 2012 – mar 2014</td>
+           <td>Junior System Administrator, Junior Web-Designer, Web-Admin</td>
+          </tr>
+          <tr>
+            <th>inprog.kz</th>
+            <td>mar 2014 – jan 2015</td>
+            <td>Web-Administrator, Web Designer, Web-Master</td>
+           </tr>
+           <tr>
+            <th>contrast-polygraphy.kz</th>
+            <td>jan 2015 – sep 2017</td>
+            <td>System Administrator</td>
+           </tr>
+           <tr>
+            <th>Freelance</th>
+            <td>sep 2017 – may 2021</td>
+            <td>Web-Master</td>
+           </tr>
+           <tr>
+            <th>service-axus.ru</th>
+            <td>jun 2021 – today</td>
+            <td>Web-Master</td>
+           </tr>
+         </table>
+    </section> <!-- end work experience -->
+
+    <section id="education"> <!-- education -->
+      <h2>Education:</h2>
+        <ul>
+          <li class="education">High school (Almaty)</li> 
+          <li class="education">MIPT online lectures</li>
+          <li class="education">RS School 2021</li>
+        </ul>
+    </section>
+    <section> <!-- education -->
+      <h2>English: A2</h2>
+    </section>
+  
+    <footer class="row">
+        <div class="column-left"> 
+          <a href="https://rs.school/"><img height="40" src="https://rs.school/images/rs_school_js.svg" alt=""></a>
+        </div>
+        <div class="column-right"> 
+          <span class="year">© Eugeniy Polyarush, 2021, <a href="https://github.com/polarush/">Github</a> </span>
+        </div>
+        <script src="https://use.fontawesome.com/18b69940b9.js"></script>
+    </footer>
+    <!-- copyright -->
+  </main>
+
+</body>
+</html>
