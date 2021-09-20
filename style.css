@@ -15,7 +15,7 @@ body {
 
 header {
     display: flex;
-    background-image: url('/media/bg.jpg');
+    background-image: url('media/bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
